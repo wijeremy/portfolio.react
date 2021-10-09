@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav() {
+const Nav = () => {
   const styles = {
     bright: {
       color: '#49fb35',
@@ -53,6 +53,6 @@ function Nav() {
       </div>
     </nav>
   );
-}
+};
 
 export default Nav;
