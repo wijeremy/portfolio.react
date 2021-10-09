@@ -23,7 +23,7 @@ const Information = () => {
             <a
               role="button"
               className="btn-sm code-card-btn m-1"
-              href="./assets/Jeremy Williams resume tech.pdf"
+              href="./Jeremy-Williams-resume-tech.pdf"
             >
               View My Resume
             </a>
