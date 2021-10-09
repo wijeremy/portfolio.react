@@ -25,7 +25,7 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse code" id="navbarNav">
           <ul className="navbar-nav code">
-            <li className="nav-item code">
+            <li className="nav-item code" key="About">
               <a
                 className="nav-link code-link"
                 href="#about"
@@ -34,12 +34,12 @@ const Nav = () => {
                 About
               </a>
             </li>
-            <li className="nav-item code-link">
+            <li className="nav-item code-link" key="Code">
               <a className="nav-link code" href="#code" style={styles.bright}>
                 Code
               </a>
             </li>
-            <li className="nav-item code-link">
+            <li className="nav-item code-link" key="Information">
               <a
                 className="nav-link code"
                 href="#information"

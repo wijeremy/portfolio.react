@@ -4,55 +4,63 @@
     "name": "Secure Password Generator",
     "github": "https://github.com/wijeremy/Secure-Password-Generator",
     "action": "https://wijeremy.github.io/Secure-Password-Generator/",
-    "img": "./images/password.png"
+    "img": "./images/password.png",
+    "desc": "This app generates a random string; good for a secure password."
   },
   {
     "id": 2,
     "name": "Code Quiz",
     "github": "https://github.com/wijeremy/code-quiz",
     "action": "https://wijeremy.github.io/code-quiz/",
-    "img": "./images/codequiz.png"
+    "img": "./images/codequiz.png",
+    "desc": "I used vanilla css and js to make this interactive animated game."
   },
   {
     "id": 3,
     "name": "Work Day Scheduler",
     "github": "https://github.com/wijeremy/Work-Day-Scheduler",
     "action": "https://wijeremy.github.io/Work-Day-Scheduler/",
-    "img": "./images/scheduler.png"
+    "img": "./images/scheduler.png",
+    "desc": "A practice in using local storage and reading Date.now()."
   },
   {
     "id": 4,
     "name": "Weather App",
     "github": "https://github.com/wijeremy/Weather-App",
     "action": "https://wijeremy.github.io/Weather-App/",
-    "img": "./images/weather.png"
+    "img": "./images/weather.png",
+    "desc": "Fetching from an API, this app can forcast the weather anywhere in the world."
   },
   {
     "id": 5,
     "name": "README Generator",
     "github": "https://github.com/wijeremy/readme-generator/tree/main/Develop",
     "action": "https://www.youtube.com/watch?v=2Da5cZl1AyU&ab_channel=HermeticHippie",
-    "img": "./images/readmegenerator.png"
+    "img": "./images/readmegenerator.png",
+    "desc": "Dipping my toes into node. This makes a quality README using inquierer."
   },
   {
     "id": 6,
     "name": "E-Commerce Back End",
     "github": "https://github.com/wijeremy/e-commerce-back-end",
     "action": "https://www.youtube.com/watch?v=z_ye7mdJn6I&ab_channel=HermeticHippie",
-    "img": "./images/commerce.png"
+    "img": "./images/commerce.png",
+    "desc": "Again using node and the console, a pseudo back end using fs."
   },
   {
     "id": 7,
     "name": "Team Profile Generator",
     "github": "https://github.com/wijeremy/team-profile-generator",
     "action": "",
-    "img": "https://picsum.images/200/200"
+    "img": "https://picsum.images/200/200",
+    "desc": "This app generates HTML for an office profile page from inputs through inquierer."
   },
   {
     "id": 8,
     "name": "Note Taker",
     "github": "https://github.com/wijeremy/note-taker",
     "action": "",
-    "img": "https://picsum.images/200/200"
+    "img": "https://picsum.images/200/200",
+    "desc": "This uses routing and CRUDs to an 'api'."
   }
 ]
