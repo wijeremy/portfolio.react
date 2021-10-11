@@ -1,25 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { getAllProjects } from '../../utils/api';
+import React from 'react';
 import Card from '../Card';
+const projects = require('./projectData.json');
 
 const Code = () => {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    const getProjects = async () => {
-      try {
-        const res = await getAllProjects();
-        if (!res.ok) {
-          throw new Error('No projects');
-        }
-        const projects = await res.json();
-        setProjects(projects);
-      } catch (err) {
-        console.error(err);
-      }
-    };
-    getProjects();
-  }, []);
-
   return (
     <>
       <div className="accordion-item">
