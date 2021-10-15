@@ -4,6 +4,12 @@ body {
   color: #49fb35;
 }
 
+.fixed {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
 .code {
   background-color: #091b09;
   color: #49fb35;

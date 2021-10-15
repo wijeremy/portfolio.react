@@ -52,7 +52,7 @@
     "name": "Team Profile Generator",
     "github": "https://github.com/wijeremy/team-profile-generator",
     "action": "",
-    "img": "https://picsum.images/200/200",
+    "img": "./images/team-profile-generator.png",
     "desc": "This app generates HTML for an office profile page from inputs through inquierer."
   },
   {
@@ -60,7 +60,31 @@
     "name": "Note Taker",
     "github": "https://github.com/wijeremy/note-taker",
     "action": "",
-    "img": "https://picsum.images/200/200",
+    "img": "./images/note-taker.png",
     "desc": "This uses routing and CRUDs to an 'api'."
+  },
+  {
+    "id": 9,
+    "name": "PWA Budget",
+    "github": "https://github.com/wijeremy/PWA-Budget",
+    "action": "",
+    "img": "./images/budget.png",
+    "desc": "I made a progressive web app budget tracker."
+  },
+  {
+    "id": 10,
+    "name": "Tech Blog",
+    "github": "https://github.com/wijeremy/tech-blog",
+    "action": "https://cryptic-oasis-45004.herokuapp.com/",
+    "img": "./images/tech-blog.png",
+    "desc": "A convenient place to share coding information. Uses login / auth."
+  },
+  {
+    "id": 11,
+    "name": "Fitness Tracker",
+    "github": "https://github.com/wijeremy/fitness-tracker",
+    "action": "https://fitness-tracker-wijeremy.herokuapp.com/",
+    "img": "./images/fitness-tracker.png",
+    "desc": "Tack your workouts! Uses MongDB and Express."
   }
 ]

@@ -18,7 +18,7 @@ const AccordionButton = ({ header, id }) => {
   };
   return (
     <>
-      <div className="accordion-item">
+      <div className="accordion-item mb-3" id={header}>
         <h1 className="accordion-header" id={`flush-heading${id}`}>
           <button
             className="accordion-button collapsed code-btn"
@@ -37,9 +37,7 @@ const AccordionButton = ({ header, id }) => {
           aria-labelledby={`flush-heading${id}`}
           data-bs-parent="#accordion"
         >
-          <div className="p-5 mb-4 rounded-3 code" id={header}>
-            {getContent()}
-          </div>
+          <div className="p-5 mb-4 rounded-3 code">{getContent()}</div>
         </div>
       </div>
     </>

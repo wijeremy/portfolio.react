@@ -9,7 +9,7 @@ const Nav = () => {
   };
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark code">
+      <nav className="navbar navbar-expand-lg navbar-dark code fixed pt-3">
         <div className="container-fluid code">
           <a className="navbar-brand code-link" href="/" id="me">
             <TypeIt>Jeremy Williams</TypeIt>
@@ -30,21 +30,21 @@ const Nav = () => {
               <li className="nav-item code" key="About">
                 <a
                   className="nav-link code-link"
-                  href="#about"
+                  href="#About"
                   style={styles.bright}
                 >
                   About
                 </a>
               </li>
               <li className="nav-item code-link" key="Code">
-                <a className="nav-link code" href="#code" style={styles.bright}>
+                <a className="nav-link code" href="#Code" style={styles.bright}>
                   Code
                 </a>
               </li>
               <li className="nav-item code-link" key="Information">
                 <a
                   className="nav-link code"
-                  href="#information"
+                  href="#Information"
                   style={styles.bright}
                 >
                   Information

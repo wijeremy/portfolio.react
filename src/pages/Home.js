@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <>
       <Nav />
+
       <Accordion />
+
       <Footer />
     </>
   );
