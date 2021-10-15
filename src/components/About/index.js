@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <p className="col-md-8 fs-4">
+      <p className="col-md-8 mb-5 fs-8">
         Nothing gives me greater joy than helping others and solving problems. I
         searched long and hard for a career. First I got my bachelors in Vocal
         Performance from the University of Michigan in '13. That wasn't for me;
