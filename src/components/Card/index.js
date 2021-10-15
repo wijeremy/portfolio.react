@@ -8,7 +8,6 @@ const Card = ({ id, img, name, desc, github, action }) => {
         <img
           className="bd-placeholder-img card-img-top"
           width="100%"
-          height="100%"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
           aria-label={name}
