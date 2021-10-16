@@ -3,7 +3,7 @@ import React from 'react';
 const Information = () => {
   return (
     <div className="accordion-item">
-      <div className="album code" id="information">
+      <div className="album code">
         <div className="container">
           <div className="row" id="card-holder">
             <a

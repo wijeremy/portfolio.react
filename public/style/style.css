@@ -4,15 +4,27 @@ body {
   color: #49fb35;
 }
 
+div.anchor {
+  display: block;
+  position: relative;
+  top: -12vh;
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
   z-index: 100;
   width: 100%;
+  top: 0;
 }
 
 .halo {
   box-shadow: 0 0 5px #49fb35;
   background-color: #0c250c;
+}
+
+.my-accordion {
+  margin-top: 12vh;
 }
 
 .code {

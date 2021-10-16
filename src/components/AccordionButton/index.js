@@ -18,7 +18,8 @@ const AccordionButton = ({ header, id }) => {
   };
   return (
     <>
-      <div className="accordion-item mb-3" id={header}>
+      <div className="anchor" id={header}></div>
+      <div className="accordion-item mb-3">
         <h1 className="accordion-header" id={`flush-heading${id}`}>
           <button
             className="accordion-button collapsed code-btn"
