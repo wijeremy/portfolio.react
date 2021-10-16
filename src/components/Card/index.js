@@ -3,7 +3,10 @@ import React from 'react';
 
 const Card = ({ id, img, name, desc, github, action }) => {
   return (
-    <div className="col" key={id}>
+    <div
+      className="col-12 col-sm-5 col-md-3 halo m-1 p-1 rounded-3 m-3"
+      key={id}
+    >
       <div className="card code2 shadow-sm" id={id}>
         <img
           className="bd-placeholder-img card-img-top"
@@ -23,7 +26,7 @@ const Card = ({ id, img, name, desc, github, action }) => {
             <div className="btn-group">
               <a
                 role="button"
-                className="btn-sm code-card-btn m-1"
+                className="btn-sm code-card-btn m-1 fs-15"
                 href={github}
               >
                 See it in GitHub

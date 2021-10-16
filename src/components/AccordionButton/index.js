@@ -37,7 +37,7 @@ const AccordionButton = ({ header, id }) => {
           aria-labelledby={`flush-heading${id}`}
           data-bs-parent="#accordion"
         >
-          <div className="p-5 mb-4 rounded-3 code">{getContent()}</div>
+          <div className="pt-5 mb-4 rounded-3 code">{getContent()}</div>
         </div>
       </div>
     </>

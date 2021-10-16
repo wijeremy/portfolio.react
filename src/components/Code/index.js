@@ -6,12 +6,9 @@ const Code = () => {
   return (
     <>
       <div className="accordion-item">
-        <div className="album py-5 code" id="code">
+        <div className="album px-1 py-1 code">
           <div className="container">
-            <div
-              className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
-              id="card-holder"
-            >
+            <div className="row justify-content-center g-3" id="card-holder">
               {projects.map((project) => {
                 const { id, name, img, github, action, desc } = project;
                 return (

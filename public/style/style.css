@@ -10,6 +10,11 @@ body {
   width: 100%;
 }
 
+.halo {
+  box-shadow: 0 0 5px #49fb35;
+  background-color: #0c250c;
+}
+
 .code {
   background-color: #091b09;
   color: #49fb35;
@@ -41,7 +46,7 @@ body {
   border: 1px solid transparent;
   outline: none;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .code-btn:hover {
